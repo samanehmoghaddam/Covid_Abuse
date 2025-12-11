@@ -1,0 +1,60 @@
+# ===========================
+# GENERAL
+# ===========================
+*.DS_Store
+*.log
+*.tmp
+__pycache__/
+*.pyc
+
+# ===========================
+# PYTHON / VENV
+# ===========================
+.env/
+venv/
+.venv/
+env/
+pip-wheel-metadata/
+
+# ===========================
+# JUPYTER
+# ===========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ===========================
+# DATA
+# ===========================
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.pkl
+
+# KEEP EXPLICIT FILES
+!data/README_data.md
+!data/keep.csv    # replace with your actual filenames if needed
+
+# ===========================
+# CREDENTIALS
+# ===========================
+credentials/
+openai.env
+
+# ===========================
+# MODEL / EMBEDDINGS
+# ===========================
+*.pt
+*.bin
+*.pkl
+*.h5
+*.ckpt
+
+# ===========================
+# RESULTS / RUNS
+# ===========================
+outputs/
+results/
+plots/
+
+# !data/covid_abuse.csv
+
