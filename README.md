@@ -263,8 +263,6 @@ This notebook:
 - merges results into the same file
 - outputs new rounds until all are labeled
 
-
-```
 A balanced subsample of size 500 is created by:
 
 ```
